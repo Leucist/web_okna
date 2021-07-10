@@ -1,0 +1,8 @@
+script.js
+*.txt
+*.php
+*.css
+*.html
+!mail.php
+!index.html
+!main.css

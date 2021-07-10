@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900%26display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="source/icon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="&#9733;продукция крупнейшего завода РБ по производству окон, балконов и прочих изделий из ПВХ и алюминия! &#9989;Автоматизированное производство = Высокое качество продукции! &#9757;Все с ОТК, документами и гарантией!">
+    <meta name="keywords" content="окна, балконы, витебск, пвх, конструкции из алюминия">
+</head>
+<body>
+<header id="header">
+<div class="bg-header"><img src="source/bg1.jpg"></div> <!-- Фоновое изображение-->
+<div class="filling-header">
+    <h1>ОКНА БАЛКОНЫ</h1>
+    <h2>от крупнейшего завода РБ</h2>
+    <img id="roundWin" src="source/bg2.jpg">
+<!--    <img id="roundWin" src="source/bg2_bw.jpg">-->
+    <h4 id="offer1">Мы предлагаем:</h4><br>
+        <div class="h4bold"><h4>ЭЛИТНЫЙ ПРОФИЛЬ</h4></div>
+        <div class="h4bold"><h4>НЕМЕЦКАЯ ФУРНИТУРА</h4></div>
+        <div class="h4bold"><h4>ЭНЕРГОСБЕРЕГАЮЩИЙ СТЕКЛОПАКЕТ</h4></div>
+    <br><h4 id="offer2">!!! По цене типового изделия</h4>
+    <div class="contacts">
+      <h4 id="phone">+375(29)999-99-99</h4>
+      <div id="contacts-link">
+      <a id="vk" href="https://vk.com"></a><a id="vk-link" href="https://vk.com">https://vk.com/group_name</a>
+      </div>
+    </div>
+</div>
+<a href="#section3" id="scrolldown"><button>Заказать</button></a>
+</header>
+<!--<div id="mBody">-->
+<section id="section1">
+   <h2>Наши преимущества</h2>
+    <ul class="central-block">
+        <li>
+            <i id="award"></i>
+            <p>Крупнейшее в РБ автоматизированное производство (ручное участие минимально — поэтому качество 🔥)</p>
+        </li>
+        <li>
+            <i id="clock"></i>
+            <p>Исполнение заказа 10 дней</p>
+        </li>
+        <li>
+            <i id="user"></i>
+            <p>Гарантия на продукцию согласно ГОСТ/СТБ Республики Беларусь</p>
+        </li>
+    </ul>
+</section>
+<a href="#header"><i id="arrow-up"></i></a>
+<section id="section2">
+    <h2>Выберите Ваше окно</h2>
+    <ul class="central-block" id="windows">
+        <li>
+            <i class="window" id="window-two"></i>
+            <p>Окно двустворчатое</p>
+            <a href="#section3"><button class="count">Рассчитать</button></a>
+        </li>
+        <li>
+            <i class="window" id="window-three"></i>
+            <p>Окно трехстворчатое</p>
+            <a href="#section3"><button class="count">Рассчитать</button></a>
+        </li>
+        <li>
+            <i class="window" id="balcony"></i>
+            <p>Балконный блок</p>
+            <a href="#section3"><button class="count">Рассчитать</button></a>
+        </li>
+    </ul>
+</section>
+<section id="section3-prev">
+    <h2>Оказываемые услуги с балконами~</h2>
+    <div id="balcony-row">
+        <ul class="balcony-features">
+          <li>
+<!--            <img src="source/" id="balcony-img"> -- картинка перед текстом-->
+            <p><strong>1. Монтаж крыши</strong></p>
+            <p1>Металлический профнастил</p1>
+          </li>
+          <li>
+            <p><strong>2. Раздвижные и распашные окна</strong></p>
+            <p1>Легкие алюминиевые окна</p1>
+          </li>
+          <li>
+            <p><strong>3. Вынос остекления</strong></p>
+            <p1>На металлических уголках, 20см, с увеличенным подоконником</p1>
+          </li>
+        </ul>
+        <img src="source/balcony.png" id="main-balcony-img">
+        <ul class="balcony-features">
+          <li>
+            <p><strong>4. Уличная отделка парапета</strong></p>
+            <p1>Сайдинг, металлический профнастил разных цветов</p1>
+          </li>
+          <li>
+            <p><strong>5. Отделка стен и потолка</strong></p>
+            <p1>Вагонка или панели ПВХ на Ваш выбор</p1>
+          </li>
+          <li>
+            <p><strong>6. Устройство пола</strong></p>
+            <p1>Половая доска, фанера влагостойкая</p1>
+          </li>
+        </ul>
+    </div>
+</section>
+<section id="section3">
+    <h2>Рассчитать стоимость</h2>
+    <form id="count-form" action="mail.php" method="POST">
+        <div class="screen" id="firstScreen">
+          <div id="chWindowRow" class="Row">
+           <p>Выберите тип окна:</p>
+           <input type="radio" id="cwr1" class="cwrCheckBox" name="window" value="1" required="required">
+           <label for="cwr1">Одна створка</label>
+           <input type="radio" id="cwr2" class="cwrCheckBox" name="window" value="2" required="required">
+           <label for="cwr2">Две створки</label>
+           <input type="radio" id="cwr3" class="cwrCheckBox" name="window" value="3" required="required">
+           <label for="cwr3">Три створки</label>
+           <input type="radio" id="cwr4" class="cwrCheckBox" name="window" value="4" required="required">
+           <label for="cwr4">Балконный блок</label>
+           </div>
+         <div id="enterSizeRow" class="Row">
+          <p>Укажите размеры:</p>
+            <div id="enterSpace">
+             <p1>Высота</p1><input name="height" type="number" min="1" required="required"><p1>мм</p1>
+             <br>
+             <p1>Ширина</p1><input name="width" type="number" min="1" required="required"><p1>мм</p1>
+            </div>
+         </div>
+         <div id="enterPhoneRow" class="Row">
+            <p>Введите номер телефона:</p>
+            <input name="phone_number" type="tel" placeholder="+375(29)99-99-999" required="required">
+         </div>
+        </div>
+    <input type="submit" id="submitBtn">
+    </form>
+</section>
+<!--</div>-->
+</body>
+</html>
