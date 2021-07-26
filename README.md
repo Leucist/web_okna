@@ -1,9 +1,6 @@
 ### A website project (html/css/php), still under development.
 
-[![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/Leucist/web_okna)
-
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
-
+[![Version](https://img.shields.io/badge/version-0.2-yellow.svg)](https://github.com/Leucist/web_okna)
 
 > Server side is working pretty fine.
 
